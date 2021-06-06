@@ -368,6 +368,11 @@
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
     
+    <!-- Default value for proximity check on screen wake
+     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
          where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
