@@ -48,4 +48,7 @@
     <!-- Whether memory from app_info_settings is available or not. -->
     <bool name="config_show_app_info_settings_memory">true</bool>
      
+    <!-- Whether Show  Google Account avatar in settings or not. -->
+    <bool name="config_show_google_account_avatar">true</bool>
+     
 </resources>
