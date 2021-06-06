@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
+#TARGET_INCLUDE_PIXEL_CHARGER := true
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
