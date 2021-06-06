@@ -33,6 +33,11 @@
     <!-- For Enabling Battery Heath -->
     <bool name="config_supportBatteryHealth">true</bool>
      
+    <!-- Battery Health -->
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/capacity*3984</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/charge_counter</string>
+     
     <!-- Whether or not the device is capable of multiple levels of vibration intensity.
          Note that this is different from whether it can control the vibration amplitude as some
          devices will be able to vary their amplitude but do not possess enough dynamic range to
