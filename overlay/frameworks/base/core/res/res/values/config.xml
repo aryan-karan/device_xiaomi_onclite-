@@ -420,5 +420,12 @@
             1 - Toggle theater mode setting
             2 - Brightness boost
     -->
-    <integer name="config_doublePressOnPowerBehavior">2</integer>    
+    <integer name="config_doublePressOnPowerBehavior">2</integer>
+    
+    <!-- Control the behavior when the user triple presses the power button.
+            0 - Nothing
+            1 - Toggle theater mode setting
+            2 - Brightness boost
+    -->
+    <integer name="config_triplePressOnPowerBehavior">0</integer>
 </resources>
