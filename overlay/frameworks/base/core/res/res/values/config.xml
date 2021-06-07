@@ -431,4 +431,7 @@
     
     <!-- Time to wait while a button is pressed before triggering a very long press. -->
     <integer name="config_veryLongPressTimeout">3500</integer>
+    
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">true</bool>
 </resources>
