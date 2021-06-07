@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# Face Unlock
+PRODUCT_PACKAGES += \
+    FaceUnlockServiceAndroidStudio
+
 # Gcam
 PRODUCT_PACKAGES += \
     GoogleCameraGo
