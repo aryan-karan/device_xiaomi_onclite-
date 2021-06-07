@@ -428,4 +428,7 @@
             2 - Brightness boost
     -->
     <integer name="config_triplePressOnPowerBehavior">0</integer>
+    
+    <!-- Time to wait while a button is pressed before triggering a very long press. -->
+    <integer name="config_veryLongPressTimeout">3500</integer>
 </resources>
