@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_onclite.mk
+    $(LOCAL_DIR)/havoc_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_onclite-user \
-    lineage_onclite-userdebug \
-    lineage_onclite-eng
+    havoc_onclite-user \
+    havoc_onclite-userdebug \
+    havoc_onclite-eng
