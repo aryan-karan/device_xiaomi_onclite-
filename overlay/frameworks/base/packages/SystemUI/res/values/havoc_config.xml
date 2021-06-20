@@ -26,5 +26,8 @@
 
     <!-- FPSInfoService FPS node file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
+	
+	<!-- CPU Temp value multiplier -->
+	<integer name="config_sysCPUTempMultiplier">1000</integer>
 
 </resources>
