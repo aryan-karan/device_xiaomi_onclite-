@@ -27,6 +27,7 @@
 #define BTA_DISABLE_DELAY 1000 /* in milliseconds */
 #define BTM_WBS_INCLUDED TRUE
 #define BTIF_HF_WBS_PREFERRED TRUE
+#define BTM_DEF_LOCAL_NAME   "Redmi 7"
 
 /* Increasing SEPs to 12 from 6 to support SHO/MCast i.e. two streams per codec */
 #define AVDT_NUM_SEPS 12
