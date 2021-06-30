@@ -22,7 +22,7 @@ TARGET_GAPPS_ARCH := arm64
 
 # Official tags
 HAVOC_BUILD_TYPE := Official
-HAVOC_MAINTAINER := Aryan Karan (aryankaran)
+HAVOC_MAINTAINER := Aryan-Karan-(aryankaran)
 HAVOC_GROUP_URL := https://t.me/havoc_os_onclite
 
 # Device identifier. This must come after all inclusions.
