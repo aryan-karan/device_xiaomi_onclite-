@@ -380,7 +380,7 @@
     <bool name="config_displayBlanksAfterDoze">false</bool>
     
     <!-- Whether the device supports Smart Pixels--> 
-    <bool name="config_enableSmartPixels">true</bool>
+    <bool name="config_enableSmartPixels">false</bool>
     
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
