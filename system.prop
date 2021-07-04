@@ -38,6 +38,7 @@ vendor.display.disable_skip_validate=1
 # Blur
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
