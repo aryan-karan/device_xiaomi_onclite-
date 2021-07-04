@@ -283,7 +283,7 @@ PRODUCT_PACKAGES += \
 
 # Notch hide
 PRODUCT_PACKAGES += \
-    NotchBarKiller
+    NotchBarKillerOverlay
 
 # OMX
 PRODUCT_PACKAGES += \
