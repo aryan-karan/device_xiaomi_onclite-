@@ -14,3 +14,5 @@ genfscon sysfs /power/system_sleep/stats                  u:object_r:sysfs_syste
 # Rmt
 genfscon debugfs /rmt_storage	u:object_r:debugfs_rmt:s0
 
+# FPS info
+genfscon sysfs /sys/devices/virtual/graphics/fb0/measured_fps       u:object_r:sysfs_graphics:s0

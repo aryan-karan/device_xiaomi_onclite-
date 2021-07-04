@@ -9,3 +9,6 @@ get_prop(system_server, fp_prop);
 
 # Smart charging
 allow system_server sysfs_battery_supply:file { getattr open read write };
+
+# FPS info
+allow platform_app sysfs_graphics:file r_file_perms;
