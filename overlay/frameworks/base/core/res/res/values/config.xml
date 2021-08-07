@@ -447,7 +447,7 @@
     <bool name="config_enableWifiDisplay">true</bool>
     
     <!-- For performance and storage reasons, limit the number of fingerprints per user -->
-    <integer name="config_fingerprintMaxTemplatesPerUser">10</integer>
+    <!-- integer name="config_fingerprintMaxTemplatesPerUser">10</integer -->
     
     <!-- Whether or not to hide the navigation bar when the soft keyboard is visible in order to
          create additional screen real estate outside beyond the keyboard. Note that the user needs
@@ -456,4 +456,5 @@
     
     <!-- Whether or not to use assistant stream volume separately from music volume -->
     <bool name="config_useAssistantVolume">true</bool>
+
 </resources>
