@@ -410,7 +410,7 @@
     
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
-    <bool name="config_allowAllRotations">false</bool>  
+    <bool name="config_allowAllRotations">true</bool>  
     
     <!-- Control the behavior when the user double presses the power button.
             0 - Nothing
