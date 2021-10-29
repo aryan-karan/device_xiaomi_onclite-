@@ -377,6 +377,9 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
+# PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 # PRODUCT_BOOT_JARS += \
 #    telephony-ext
 
